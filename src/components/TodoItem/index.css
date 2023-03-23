@@ -1,0 +1,33 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #000000;
+  margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .title-text {
+    font-size: 15px;
+  }
+}
+
+.button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ff0b37;
+  background-color: #ffffff;
+  color: #ff0b37;
+  cursor: pointer;
+}
